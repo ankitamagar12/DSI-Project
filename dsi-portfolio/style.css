@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto", sans-serif;
+
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+/* header section start */
+.header {
+  margin-top: 2.2rem;
+  margin-bottom: 9rem;
+}
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav-list {
+  display: flex;
+  gap: 7rem;
+  list-style-type: none;
+}
+.main-nav-link {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #1f2e35;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+/* header section end */
+
+/* hero section start */
+
+.hero-content {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 10rem;
+}
+.heading-primary {
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #1f2e35;
+  margin-bottom: 2.2rem;
+}
+.sub-heading{
+  font-size: 1.8rem;
+    font-weight: 400;
+    max-width: 53ch;
+    color: #30444E;
+    font-family: "Roboto", sans-serif; 
+    margin-bottom: 2.4rem;
+}
+.btn-primary {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: capitalize;
+  background-color: #ee4248;
+  
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+
+}
+/* hero section end */
+
+/* welcome section start */
+.welcome-img-box{
+  flex-basis: 30%;
+}
+
+.welcome-content {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 10rem;
+}
+.heading-secondary{
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 1.4;
+  color: #1f2e35;
+  margin-bottom: 2.4rem;
+}
+.paragraph{
+  font-size: 1.8rem;
+    font-weight: 400;
+    max-width: 53ch;
+    color: #30444E;
+    font-family: "Roboto", sans-serif; 
+}
+.paragraphs :nth-child(1){
+  margin-bottom: 2.4rem;
+}
+/* welcome section end */
+
+/* data section start */
+.section-data{
+  margin-bottom: 11rem;
+}
+.data-title{
+  font-weight: 500;
+  font-size: 3.2rem;
+  text-align: center;
+  color: #1f2e35;
+  margin-bottom: 5rem;
+}
+.data-card{
+  display: flex;
+    justify-content: space-evenly;
+}
+.product-img-box,
+.service-img-box,
+.tech-img-box{
+  max-width: 10ch;
+}
+.product-title,
+.service-title,
+.tech-title{
+font-weight: 500;
+font-size: 2.2rem;
+color: #EE4248;
+margin-bottom: 1.4rem;
+}
+.para{
+  max-width: 25ch;
+  margin-bottom: 2.4rem;
+}
+/* data section end */
+
+/* footer section start */
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.5rem;
+}
+.footer-link{
+  display: flex;
+}
+.footer-img{
+  max-width: 49%;
+}
+.footer-title{
+  font-size: 1.5rem;
+    font-weight: 500;
+    color: #263238;
+    margin-bottom: 1rem;
+}
+.footer-link{
+  font-size: 1.4rem;
+    font-weight: 300;
+    color: #263238;
+}
+.footer-titles{
+  font-size: 2.4rem;
+    font-weight: 500;
+    color: #263238;
+    margin-bottom: 2rem;
+}
+.copyright{
+  text-align: center;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  background: #EE4248;
+  padding: 1rem;
+}
+/* footer section end */
+
+
+
+/* service css start */
+
+/* section hero start */
+.heading-title{
+  font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    max-width: 22ch;
+    margin: 0 auto;
+    color: #263238;
+    margin-top: -4rem;
+    margin-bottom: 15rem;
+}
+/* section hero ends */
+/* section services starts */
+.services-content{
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  margin-bottom: 10rem;
+}
+.paragraphs :nth-child(2){
+  margin-bottom: 2.4rem;
+}
+/* section services ends */
+
+
+/* product CSS start */
+
+.titles{
+font-size: 3.5rem;
+max-width: 27ch;
+color: #ffff;
+background: #EE4248;
+
+}
